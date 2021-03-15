@@ -7,7 +7,8 @@
 body{
     font-family: Georgia;
     font-size: 20;
-    
+    background-color: black;
+
 }
 .header{
     background-color: #1f1e1e;
@@ -37,6 +38,14 @@ body{
     font-size: 32px;
     font-weight: 200;
 
+}
+.logo_container button{
+    padding: 0px 20px;
+    background-color: transparent;
+    background: none;
+	color: inherit;
+	border: none;
+	
 }
 .logo_container h1 span{
     font-weight: 800;
@@ -72,8 +81,7 @@ body{
 }
 .Our_Brands h1{
     
-    color: black;
-    
+    color: white;
     text-align: center;
     vertical-align: middle;
     font-family: 'Monrserrat';
@@ -82,7 +90,7 @@ body{
 }
 .Our_Brands{
     text-align: center;
-    background-color: white;
+
 }
 
 .vectus{
@@ -108,7 +116,7 @@ body{
 
 }
 .parallax{
-    background: url('./images/background3.jpg') no-repeat center;
+    background: url('./images/background4.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
@@ -167,11 +175,17 @@ body{
 
 }
 .parallax2{
-    background: url('./images/background2.jpg') no-repeat center;
+    background: url('./images/background5.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
     width: 100%;
+}
+
+.about{
+    background-color: #1f1e1e;
+    color: gray;
+    text-align: center;
 }
 
 
